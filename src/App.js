@@ -15,10 +15,8 @@ function App() {
               <th>Time</th>
             </tr>
           </thead>
+          <tbody></tbody>
         </table>
-        <tbody>
-          
-        </tbody>
       </div>
     </div>
   );
