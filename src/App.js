@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import StockRow from './components/StockRow.js';
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,12 @@ function App() {
               <th>Time</th>
             </tr>
           </thead>
-          <tbody></tbody>
+          <tbody>
+            <StockRow ticker="aapl" />
+            <StockRow ticker="goog" />
+            <StockRow ticker="msft" />
+            <StockRow ticker="tsla" />
+          </tbody>
         </table>
       </div>
     </div>
